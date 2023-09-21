@@ -3,6 +3,7 @@ import { createId } from "@paralleldrive/cuid2";
 
 import type { User } from "./user.server";
 
+const a = 0
 export type Note = {
   id: ReturnType<typeof createId>;
   userId: User["id"];
